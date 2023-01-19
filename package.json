@@ -5,7 +5,7 @@
   "main": "./build/app.js",
   "scripts": {
     "start": "node ./build/app.js",
-    "start:dev": "nodemon --exec babel-node ./app.js",
+    "dev": "nodemon --exec babel-node ./app.js",
     "clean": "rm -rf build && mkdir build",
     "build-babel": "babel -d ./build ./app.js -s",
     "build": "npm run clean && npm run build-babel",

@@ -10,10 +10,10 @@ First, run the development server:
 ```bash
 cd es6-babel-node-express-app
 npm install
-npm run start:dev
+npm run dev
 # or
 yarn install
-yarn run start:dev
+yarn run dev
 ```
 
 Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
